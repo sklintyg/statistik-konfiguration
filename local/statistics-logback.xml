@@ -51,6 +51,9 @@
 
     <logger name="se.inera.certificate.web" level="WARN"/>
 
+    <logger name="org.springframework.security.saml.log" level="INFO" />
+    <logger name="org.opensaml" level="INFO" />
+
     <!-- Enable logging of processing status -->
     <logger name="se.inera.statistics.service.processlog.LogConsumerImpl" level="INFO" additivity="false">
       <appender-ref ref="PROCESS_FILE" />
